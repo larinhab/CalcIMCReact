@@ -5,7 +5,7 @@ export const data = [
       classification: "Less then 18,5",
       info: "Thinness",
       obesity: "0",
-      infoClass: "low"
+      infoClass: "Low"
     },
     {
       min: 18.5,
@@ -13,7 +13,7 @@ export const data = [
       classification: "Between 18,5 e 24,9",
       info: "Normal",
       obesity: "0",
-      infoClass: "good"
+      infoClass: "No risk"
     },
     {
       min: 25,
@@ -21,7 +21,7 @@ export const data = [
       classification: "Entre 25,0 e 29,9",
       info: "Overweight",
       obesity: "I",
-      infoClass: "medium"
+      infoClass: "Medium"
     },
     {
       min: 30,
@@ -29,7 +29,7 @@ export const data = [
       classification: "Entre 30,0 e 39,9",
       info: "Obesity",
       obesity: "II",
-      infoClass: "medium"
+      infoClass: "Medium"
     },
     {
       min: 40,
@@ -37,7 +37,7 @@ export const data = [
       classification: "Bigger then 40,0",
       info: "Severe Obesity",
       obesity: "III",
-      infoClass: "high"
+      infoClass: "High"
     },
   ];
 
