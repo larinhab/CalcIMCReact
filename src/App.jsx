@@ -1,9 +1,9 @@
 import './App.css'
-import Data from './data/data.js'
 import { useState } from 'react'
+import { data } from './data/data.js'
 
 import  Imccalc  from './components/imccalc/imcCalc.jsx'
-import ImcTable from './components/imctable/ImcTable.jsx'
+import Imctable from './components/imctable/ImcTable.jsx'
 
 
 // GERENCIA TODOS OS ESTADOS GLOBAIS
@@ -24,7 +24,7 @@ function App() {
     const imcResult = (weightFloat /(heightFloat * heightFloat).toFixed(1))
   
     console.log(imcResult)
-    setImc(ImcTable)
+    setImc(Imctable)
   }
 
   const [ imc, setImc ] = useState("")
@@ -42,7 +42,7 @@ function App() {
       !imc ? (   <Imccalc calcImc={ calcImc }/>  ) 
       // SE NÃO :
       : (
-        <ImcTable/> )
+        <ImcTable data={ data }/> )
       
       } 
 
