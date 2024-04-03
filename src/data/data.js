@@ -1,11 +1,11 @@
-const data = [
+export const data = [
     {
       min: 0,
       max: 18.4,
       classification: "Less then 18,5",
       info: "Thinness",
       obesity: "0",
-      infoClass: "medium"
+      infoClass: "low"
     },
     {
       min: 18.5,
@@ -37,8 +37,8 @@ const data = [
       classification: "Bigger then 40,0",
       info: "Severe Obesity",
       obesity: "III",
-      infoClass: "medium"
+      infoClass: "high"
     },
   ];
 
-  export default data
+//  export default data
