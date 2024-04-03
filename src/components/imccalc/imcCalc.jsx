@@ -13,21 +13,21 @@ const ImcCalc = ({ calcImc }) => {
         setWeight("")
     }
 
-    const validDigits = ( text ) => {
-        return text.replace(/[^0-9,]/g,"")
-    }
-
-    const handleHeightChange = (e) => {
-        const updatedValue = validDigits(e.target.value)
-
-        setHeight(updatedValue)
-    }
-
-    const handleWeightChange = (e) => {
-        const updatedValue = validDigits(e.target.value)
-
-        setWeight(updatedValue)
-    }
+   // const validDigits = (text) => {
+   //     return text.replace(/[^0-9,]/g, "");
+   //   };
+    
+      const handleHeightChange = (e) => {
+        const updatedValue = validDigits(e);
+    
+        setHeight();
+      };
+    
+      const handleWeightChange = (e) => {
+        const updatedValue = validDigits(e);
+    
+        setWeight();
+      };
 
 
   return (
@@ -43,7 +43,7 @@ const ImcCalc = ({ calcImc }) => {
                         type="text" 
                         name='height' 
                         placeholder='Qual sua altura? Ex: 1,70' 
-                        onChange={(e) => handleHeightChange}
+                        onChange={(e) => setHeight(e.target.value)}
                         value={height}/>
                 </div>
 
@@ -53,8 +53,8 @@ const ImcCalc = ({ calcImc }) => {
                     type="text" 
                     name='weight' 
                     placeholder='Quantos kg você tem? Ex:70'
-                    onChange={(e) => handleWeightChange}
-                    value={weight} />
+                    onChange={(e) => setWeight(e.target.value)}
+                    value={ weight } />
                 </div>
 
                 <div className='action-control'>
