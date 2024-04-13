@@ -18,7 +18,7 @@ export const data = [
     {
       min: 25,
       max: 29.9,
-      classification: "Entre 25,0 e 29,9",
+      classification: "Between 25,0 e 29,9",
       info: "Overweight",
       obesity: "I",
       infoClass: "Medium"
@@ -26,7 +26,7 @@ export const data = [
     {
       min: 30,
       max: 39.9,
-      classification: "Entre 30,0 e 39,9",
+      classification: "Between 30,0 e 39,9",
       info: "Obesity",
       obesity: "II",
       infoClass: "Medium"

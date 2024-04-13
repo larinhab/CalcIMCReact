@@ -12,27 +12,15 @@ Its a Java Scrpit pure project, that calculates any IMC person.<br/> </p>
 
 
 <p align="center">
-  <img alt="finished project" src="./src/assets/readme1.png" width="100%">
+  <img alt="finished project" src="./src/assets/home.png" width="100%">
 </p>
 
 <p align="center">
-  <img alt="Normal" src="./src/assets/readme2normal.png" width="80%">
+  <img alt="Normal" src="./src/assets/normal.png" width="80%">
 </p>
 
 <p align="center">
-  <img alt="Overhight" src="./src/assets/readme3over.png" width="80%">
-</p>
-
-<p align="center">
-  <img alt="Obesity" src="./src/assets/readme4obesity.png" width="80%">
-</p>
-
-<p align="center">
-  <img alt="Severe" src="./src/assets/readme5severe.png" width="80%">
-</p>
-
-<p align="center">
-  <img alt="Thinness" src="./src/assets/readme6thiness.png" width="80%">
+  <img alt="Overhight" src="./src/assets/medium.png" width="80%">
 </p>
 
 ## 🚀 Techs / Tecnologias
@@ -41,6 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript
+- React JS
 - Git e Github
 
 ## 💻 Project / Projeto
